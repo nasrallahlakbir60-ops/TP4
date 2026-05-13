@@ -110,10 +110,12 @@ p {
 
 /* Responsive */
 @media (max-width: 500px) {
-    .nav-container {
-        padding: 10px 0;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-    }
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+
+  section {
+    padding: 20px;
+  }
 }
