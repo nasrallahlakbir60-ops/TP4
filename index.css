@@ -1,8 +1,21 @@
-nav {
-    background-color: #333;
-    padding: 10px;
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
-a{
+
+nav{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+nav a{
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 18px;
+    align-items: space-between;
+}
+
+nav a:hover{
+    color: orange;
 }
